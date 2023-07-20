@@ -18,12 +18,13 @@ End the program
 #Program to find the solution for the given linearequation                             
 #Developed by: Gedipudi Darshani 
 #RegisterNumber:23004619
-python
+```python
 import numpy as np
 A=np.array([[1,3],[2,5]])
 b=np.array([5,-3])
 x=np.linalg.solve(A,b)
-print(x)
+print(X)
+``````  
 ## Output:
 ![solution1](output1.png)
 ## Result: 
